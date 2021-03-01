@@ -57,6 +57,7 @@
             </projectDesc>
         </encodingDesc>
         <revisionDesc>
+          <change who="part:argr part:rozo" when="2021-03-01">continued encoding the manuscript</change>
             <change who="part:argr part:rozo" when="2021-02-22">started encoding the manuscript</change>
         </revisionDesc>
     </teiHeader>
