@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+<!-- transliteration questions:
+
+1. Historical A represented as qa for systemic neatness
+2. Historical bh kept, as it is distinct from b
+3. Would ñj or nj be a better transliteration?
+ 	in general, how to view the conjuncts: can they be analyzed as pasangans in Jav-Bal script?
+4. how to deal with double anusvāra that expresses syllable final /n/?
+	ṁ*
+	N
+	ṁṁ
+5. Two charactersa for /s/: the double bar shall be represented as <s>, the double <ga> shape as <ś>
+ -->
+        <fileDesc>
+            <titleStmt>
+                <title>BL-Malay-A2</title>
+                <respStmt>
+                    <resp>digital edition</resp>
+                    <persName ref="part:argr">
+                        <forename>Arlo</forename>
+                        <surname>Griffiths</surname>
+                    </persName>
+                	<persName ref="part:rozo">
+                		<forename>Roberta</forename>
+                		<surname>Zolla</surname>
+                	</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>intellectual authorship of edition</resp>
+                    <persName>
+                        <forename>P.</forename>
+                        <surname>Voorhoeve</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+                    <msIdentifier>
+                        <repository>DHARMAbase</repository>
+                        <idno/><!-- don't modify this -->
+                    </msIdentifier>
+                    <msContents><!-- describe the intellectual content of an inscription -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                    </msContents>
+                    <physDesc/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>...</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="part:argr part:rozo" when="2021-02-22">started encoding the manuscript</change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:space="preserve" xml:lang="omy-Latn">
+      <body>
+<!-- MSS. Eur. C. 214
+Synoptic text of MSS. London, SOAS 41394, reverse, and India Office Library, no nr., observe. [now MSS Malay A.2] by Dr. P. Voorhoeve
+Both MSS. are written on tree bark in rèntjong characters. The SOAS MS. is from the Marsden collection; the provenance of the India Office MS. is not known, but it may have about the same age.
+The following text is not a critical edition; it simply registers all the variant readings of the two MSS. Where I preferred one reading I have put this is in the text and the other one in the note, but in many cases I have chosen at random.
+A = MS. SOAS.
+B = MS. India Office. [MSS Malay A. 2]
+(  ) = not in A; (h) = has ‘, B has h; (V) = A has a, B has vowel.
+‘  ’ not in B; ‘h’ = B has ‘, A has h ; ‘V’ = B has a, A has vowel.
+“  ” = illegible in B.
+!  ! : the following note number refers to all the words between the enclamation-marks.
+ C = the text printed in De talen en letterkunde van Midden-Sumatra, by A.L. van Hasselt. Leiden 1881, p.11-13. It reproduces very imperfectly a text written on five flat strips of bamboo. I have tried in vain to find the original. It once belonged to Mr. van Schouw Santvoort, to whom it had been presented by Dr. H.M.D.van Riemsdijk (c. 1877). Between an initial and a final passage not found in A and B this text consists of a number of sentences that are also found in A and B, but in a different order. Together they represent about one quarter of the text of A and B. If we number the corresponding passages 1-23 in the order in which they are found in A and B, and call C’s intervening sentences that I have not identified in A and B. O, the order of the text in C is: 1 – 2 – 18 – 0 – 22 – 23 – 0 – 9 – 5 – 10 – 7 – 13 – 15 – 0 – 16 – 1a – 17 – 8 – 0 – 14 – 0 – 4 – 6 – 0 – 3 – 16 – 0 – 20 – 23 – 0 – 11 – 12 – 19 – 20 – 21 –
+C is still more corrupt than A and B.
+The spelling of C is influenced by Redjang pronunciation, e.g. asa = asal, Redjang asea.
+2 / indicates the beginning of a page in A; 2 / in B.
+The text is an allegorical poem in which life is compared to a voyage in a ship. The parts of the ship are given Arabic names, just as in the Sja’ir Perahu (Doorenbos’s edition of Hamzah Fansuri p. 16-19), but all the names are different.
+Many sentences in our text have the form of lines of a sja’ir, and many of these lines rhyme, but not always in groups of four. The suffix –nja is left out of consideration for the rhyme in such lines as:
+tawakal akilum nama gegadingnja
+(the following lines rhyme in –ing).
+Is seems probable to me that the text originally was a sja’ir and that it got its present corrupt form in the course of literary, and perhaps oral, tradition. Some words that disturb the rhythm look like glosses.
+Hamzah’s vocabulary has influenced our author; he even uses the word bapai, Hamzah’s peculiar form for bapa, father. In his ideas the author follows the system of the seven grades, which became known in Indonesia in the 17th century.
+In the colophon of C the text is called surat tabaris. With some audacity one might suppose this to mean that its authorship is ascribed to Sjamsi Tabrīz. However this may be, the copyist held it in great awe. He says that losing the manuscript would be an unforgivable sin and would be punished by a sojourn in the fire of hell. -->
+
+<lg n="1">
+<l><pb n="1r"/><lb n="1"/><g type="sunrays"/>qalaḥhuma salam·<lb n="2" break="no"/>mu laihi<unclear>ku</unclear>m·</l>
+<l>śiyak· <lb n="3"/>mahulana bhaṁsaña ka<lb n="4" break="no"/>rim·</l>
+<l>manuñjuk·kaṁ* ja<lb n="5" break="no"/>laṁ* daripa<unclear reason="eccentric_ductus">da</unclear> janat· ja<lb n="6" break="no"/>natuṁ* nahiṁ*</l>
+<!-- Jannatun Na'iim artinya Surga yang Penuh Kenikmatan , Dalam Al Qur'an surat al Hajj, ayat 56. Allah swt. telah menegaskan : "Maka orang - orang beriman dan mengerjakan amal shaleh ada di dalam surga yang penuh kenikmatan". -->
+<l>qi sagala kamu <lb n="7"/>qiyaṁ baranama pandita</l>
+<l>ju<lb n="8" break="no"/>ga ya kamu katavi</l>
+</lg>
+<!-- 1.1 / ‘alah huma ‘mu sali ‘ala’ salammu ‘’a’laihi kum
+sijak mahulana ‘’adalah’ bangsanja karim
+manu(ndjuk)kan djalan daripada djanat djanatun1 nahin
+‘i sagala kamu ‘h’ijang baranama pandita
+djug’i’ ja kamu katawi
+ -->
+
+<lg n="2">
+<l>kayu hi parahu<pb n="2r"/><lb n="1"/>mu</l>
+<l>hita bharanama<surplus>ḥ</surplus> bha<unclear>tara</unclear></l>
+<!-- AG&RZ have reached here on 2021-02-22 -->
+<l><lb n="2"/>hasal·ña diyam· tumbuḥ<lb n="3" break="no"/>ña di pada<unclear>ṁ</unclear> bhalaḥsatara</l>
+<l>ma<lb n="4" break="no"/>ka dihambil· huliḥ hibhara<lb n="5" break="no"/>t· hasal·ña siki</l>
+<l>kayu hi<lb n="6" break="no"/>tulaḥ taralalu tiṅgi</l>
+<l>śuṅguḥ pu<lb n="7" break="no"/>huṁ*ña bhasar qasal·ña bhiji</l>
+</lg>
+<!--
+2     kaju (h)i’tu’ parahu/mu
+! ‘ibara naban tarah!2
+(h)asalnja6 dijam (tumbuhnja) di padang !balasan tarang!3
+maka di(h)ambil (h)ulih hibarat (h)asalnja siki(n)
+kaju (h)itulah taralalu tinggi
+su(ngguh) puhunnja basar ‘asalnja bidji
+-->
+
+<lg n="3">
+<l>bhu<lb n="8" break="no"/>vaḥña lakap· hiyaṁ tiyada
+<!-- we have reached here on 2021-02-22 -->
+<pb n="2r"/> tarasa(m) bunyi</l>
+<l>sungguhnya la’ng’kap (h)iyang tiyada / taradinding</l>
+<l>parahu (h)it(u)lah taralalu basar</l>
+<l>paratamanya balay(i)r di lahut satar</l>
+<l>lunasnya baranama hamar</l>
+<l>tukangnya bidyak baranama dyamal</l>
+<l>barabuwat(t)an parahu di kuwala dyabar</l>
+</lg>
+
+<lg n="4">
+<l>“tatah”/nya ‘ba’ranama (h)adyal</l>
+<l>ga”hala?”mnya ka(h)in bisatar dan “dira”m(mi)</l>
+<l>2     sakar/nya ba(ra)nama (h)alip lam</l>
+<l>hiyalah dayim taradiri siyang (h)arid an malam</l>
+<l>dyanurnya sanitihasa tiyada padam4</l></lg>
+
+<lg n="5">
+ <l>hiyalah baratipu baramahin / (mahin sagala) ragam</l>
+<l>(di)dalam duniyanya (ba nama hawal hadyim)</l>
+<l>barabuwat sariyat daripada sakaliyan ‘h’isalam</l>
+<l>datang sakarang dimanakan dayim</l>
+<l>pasaknya baranama (m)bitang</l>
+<l>dari da(h)ulu datang sakarang</l></lg>
+
+<lg n="6">
+<l>kasih/nya banyak tiyada takabilang5</l>
+<l>da(h)(u)lu datang sakarang</l>
+<l>mabuk15 (h)itu bukannya kakasih</l>
+<l>(h)(i)ya(ng)lah kalakuwan tadyali dan ‘dan’ tasabihi</l>
+<l>(h)it(u)lah tyaramin taralalu pasih</l>
+<l>bayang-bayangnya sangat mangasih</l>
+<l>t’u’wakal Akilun1 nama gagadingnya</l></lg>
+<!--
+<lg n="7"><!-\-7.3-\->
+/ parahunya saniti Asal2 / tiyada dapat (di) dyawuh3 dan daping
+mamandang diya dyangan kahu paning
+ka’induhannya4 ‘iluk5 tiyada taratanding6
+patimbannya baranama niran
+muwah radya muwah (pangi)ran</lg>
+
+<lg n="8">
+Asalnya7 satu tiyada bara (lahin)lah (i) nan
+mulanya ‘la’hir daripada (..n) ku’n’t(u) kañjan mah’u’piyan
+‘di’tangah (pa)dang hiyalah baratipu baramahin(mahin)
+muhipnya8 la’ng’kap daripada sakal(i)yan dyamin
+tudyuh musana dyangan kahu barasipi (si)pang
+humpama buwah didalam batang(nya)</lg>
+
+<lg n="9">
+la’ng’kap samat daripada sa/kaliyan dagang
+dari dahulu datang sakarang
+nunggaranya tiyada (h)alang(h)alang ‘datang sakarang’
+timbanya baranama salawat
+ty’i’ta hiya9 (h)andak mangadapkan10 k(i)bilat
+hitulah parahipun (n)an sakaliyan11 Awak12
+di takabir13 dan takalil14 dyug(i)ya diparabanyak
+4     supaya muh (h)aripatmu s’u’/parati mi(la)nyak
+</lg>
+
+<lg n="10">10   supaya minyak “sara”ba dan badan nyawa
+‘itulah (h)udyut manyatakan ‘ikan ndak
+hastaga1 p(i)ralah tubatnya
+dyik’i’r dan madakir dyugiya’lah’ diparadapat
+dar(i)pada sakaliyan hisalam barabuwat
+(hi)badat(t)ul m’u’bin nama luwannya
+hiyalah kanyin sawatu tuwan kita</lg>
+
+<lg n="11">
+hawal ya (h)ada hahirpun ba/lum
+baru sawatu Ad(i)yat
+‘h’itulah baranama kadim dan kakal
+(balum) baragalar2 ta(h)hiyun (h)awal
+tudyuh bilangannya sakaliyan dyawal
+balum (h)ada patyi(r) sipat dan pahal
+kahapat (h)alam tapatnya3 mah’u’ tabar
+(h)adiyat hitu tiyada4 bara(h)ubah</lg>
+-->
+
+<!--12   ‘h’ulihnya sanga/t ta’h’u baradaya
+muhipnya la’ng’kap daripada tidur dan dalam dyaga
+pikirm(u) handak parikas nyata ‘ra’
+sipat (h)alah nama tangahnya
+5     hiya/lah (h)amba ‘umat p’u’rityaya
+saniti(h)asa ‘h’ilang tiyada (ha)kan lupa
+hiyalah bara(h)akikat katya dan paratama
+kaduwa (h)alam tarang dan nyala
+13  hiyalah ‘ba’/ranama sipat tahiyun (h)awal
+haral5 dan hibadat tiyada babar
+hiyalah mandapat diya
+disanalah parahipunnan sakaliyan kita
+muhipnya1 la’ng’kap tiyada tarahisap
+samahu latip na(ma) baritannya
+hiyalah tyaramin saniti(h)asa’l’ hiran
+mamandang tiyada barakasu ‘dah’han
+14   muhip/nya1 la’ng’kap nyawa dan badan
+takala hitulah hiya balum barabilang
+halam ruh hayat2 (h)iyalah ka’da’m
+tiyada barahu(bah) d’i’ri sakarang
+datang ka h(u)m(i)l mahasar dyamah
+(h)adiyat hitulah baranama sipat ta(h)hiyun ‘has’sani
+balum nyata langit dan bumi
+muhipnya la’ng’kap kapada haku
+15   hiyalah / manarang misan kaduwa nunggari3
+h(i)yalah baranama hakikat hudyut hilapi(h)
+6    hinal yakin nama kamudi/nya
+banyak ba’ra’sasambah dan pudyinya
+(h)akikatnya dayim dangan dyanatul rabi
+hiyalah (h)udyut4 manya(ta)kan hadiyat
+muhipnya la’ng’kap kapada saka(li)yan budi
+16  hiyalah halam nyata kuri /
+bitalah !sananiyat hisan!5
+‘h’alam hitulah baranama haruh
+muhipnya la’ng’kap kapada sakaliyan halam
+(h)alam hitu lagi kan barapindah-pindah
+kahindahannya dyuga kadim dan kakal
+halam (h)itu(lah) taralalu tarang
+muhipnya la’ng’kap kapada sakaliyan pamandang1
+17   pamandangmu1 hiluk tyutyi / dan haning
+kasihannya (h)ah(i)p tiyada tarabilang’bilang’
+humpama puhun dan bayang2bayang ‘iyalah tiyada kakal
+halam ‘itu disana missal
+takala hitulah hiya hidar barabilang pahal
+7     / bah(i)tal mulana nama kurungnya3
+h(i)yalah halam lahuta4 dan gunung
+lahat5 ‘h’itu (h)ayirnya daras
+18   / harusnya barapasang pasang
+kaka’ya’hannya dyangan manyalam
+kapal kalu kamu b(i)nasa dan karam
+halam misal suda’h’ taralin6
+hatinya basar (h)anuknya s’i’kin
+hiyalah taradiri sakal(i)yan (h)angin
+19   hala/m ‘itu dyugiya waris
+warana dan rupa pikirm’u’ kasip
+rakap rata sakaliyan takip
+halam ‘h’itulah humpama minyak
+‘barati’ baratiyup (h)angin buwihnya bara’garak’
+ragam (bara)pulang pulangnya kalahut7 sabar8
+pañji pañji muhamat nama tiyangnya
+hakikatnya handak lalu kas(u)barang
+manati hangin (h)umbaknya tanang
+tupannya dayim tiyada barahulang hulang
+radyungmu sarat banyak m(u)buwang
+8, 20  sawuh m(u)bukar da/ndan mu/hulang-hulang
+manudyu kuwala dyalanmu datang
+halam hitu baranama hidyawam
+hawal1 dan ha’h’ir hadyim diyatim
+hiyalah paratamuwan sadat dyañji
+hiyalah lang2 kaduwa nanggari
+kasana sini’pun’ tiyada bara’ba’ya(ng) lagi
+!hiya hayu hanas!3 nama malim ‘hangin’nya
+kaba’n’dar dy(u)ban hakan nama salinnya
+21   (h)um(a)pama kapas (dan) ba/nang dan kahin
+hiya’lah’ (h)alam bagi kahu lahin
+Asalnya tunggal (hu)warananya lahin
+halam hitulah taralalu (ba) basar
+kalakuwannya tatap hiyang tiyada taragatar
+sungguh ‘sa’puhun tiyada linyap
+kaduwa matanya hada(nya) masana’p’
+hisan4 hitulah taralalu kamilun
+‘h’iyalah puhun sakaliyan radyi(hun)
+22    (dya)lannya la’ng’kap ka/pada sakaliyan bidyuru(n) ‘hala
+(h)alam ‘h’itulah taralalu kakal
+muhipnya la’ng’kap kapada dyalan ‘hi’ yang tunggal
+9     manyatakan si dyalal / dan si dyamal
+disana nyata5 sakaliyan pahal
+dyalan ‘h’isan taralalu kaya
+su’ngguh’ puhun6 du7 hamba da(n) saya
+muhipnya8 la’ng’kap tiyada ba’ra’ gutika
+23   dimanakan putus ‘udyut dan / tyita
+mara kabur dyu’h’ar nama malim hanginnya
+(h)iyalah (u’)wasil dayim baramahin-mahin
+bukan ka’du’duknya baratipu (di) balakang kabar1
+hiyalah tahu2 gutika hangin bara(h)ubah
+dida(ha)lam halam sakaliyan rata
+halam (h)itu amatnya3 tarang didalam ta(m)tunya
+tarang tiyada dapat dibanding
+24   / disanalah (h)ahir sakaliyan dagang
+malim ‘itu pandai barabudi
+malayir lahut tiyada baratapi
+disanalah karam sakaliyan Anak dyamu sakaliyan’ kita
+dari sana dyadi hayirnya tanang hamatnya4 tyutyi
+hitulah minumman(nya) mabuk5 dan paning
+10   ridyal (ha) / hassikin nama na’ng’ kudanya
+lahut ladyim hakan diduganya
+25   ‘h’iyalah pandai sakaliyan ruga dan / karang
+taralalu nyata pulawnya tanang
+‘nang’ kuda ‘h’itu bukannya batin
+sakaliyan nanggari tapatnya baramahin-mahin
+manyambarkan dirinya kapada haripin
+‘h’iyalah tahu ‘gutika’ ‘h’aki’ka’t (h)angin
+s’u’ngguh barahambus lalu kudyamin
+(h)(a)kikatnya dayim dangan salam(i)n
+‘h’iyalah maliyarakan
+‘hu’war(i)li halan nama pambawunnya6
+h(u)n na rasaki(h) dan7 k’i’ dan hasikin hakikatnya
+26   dayim / saniti yasa7 wasilun rupa hiya(ng) bukan
+dyangan sawatu hudyut1 muhawang
+supaya batu’l’ dyalanmu pulang
+hingat ‘h’ingat dyangan hakaw2 mamang
+‘ratamu habis kahu buwang’
+rasil wadyip nama sa’m’bu’t’ layangnya
+hingat hingat kahu piyawang
+musuhmu3 banyak hakan kahu sarang
+kapalmu kalu (tara)karang
+manati hidar dagang kan pulang
+11   saga/la kamu hiyang lupa
+dyangan kamu manyambah diya
+27   / dyangan kamu baramakam kapada warana4 dan tya(ha)ya
+halam ‘h’itu lagi kan barapindah-pindah
+lidahmu tahu5 hakikat ha’m’bun
+ha’m’bun ‘h’itu (h)asalnya hayir
+karadyanya barahipun dyatuh kabumi
+disanalah kita ‘ma’radyihun
+(h)imantu bilahi nama tali tabirangnya
+hiyalah paralu dapat kahu pagang
+dari dahulu datang sakarang
+28   hanak ma/lim disanalah dyalan
+tuwan kita taralalu karam
+maliyarakan ‘hi’yatim h’u’mat layip6
+pidyuhat hiyatim hanak piyatu
+sariyatnya kakal t’u’lah taratama’t’
+tu’hip matu’ hamarnya banyak !lakas dan rabur!1
+sungguh ‘sa’puhun (h)adam paratamanya lahin2
+dimanakan sama dangan hapdul pakir
+12   ‘ka’duduk/nya sanitihasa3 dangan ‘ta’ramuliya
+29   kat’u’runan da/ripa/da mahadyidyat4 sarata dangan ‘hi’dy(i) bara’h’il
+‘hiyalah mangarunikan dyabir dahadyil’
+hiyalah tuwan kakasih hiyang kanal5
+latarak6 nama layirnya
+hiyalah kahar karadyanya sukar
+manguliling7 halam sabar (sabar)
+layir(nya) ‘h’itu balum ta(ra)batang
+manati musim lagi8 kan pulang
+ratamu habis hakan kahu buwang
+sakaliyannya hitu samuwanya hakan hilang
+30   di padang hirasat hakan / ditimbang
+padang hitu’lah’ taralalu luwas9
+barati disana sakaliyan mu(h)anas
+tiyada bara(nama) hamatnya panas
+hanak makadum hamalnya dayim
+sanitihasal10 sama karum
+saparati kayu dyawibun
+batangnya lahir daripada kun piyakun
+banyak barapuput hangin dari(pada ra)tamu
+hitu daripada11 rabul12 ‘h’alamin
+hiyalah hamba hiyang sabirin13
+31, 13   hi / sagala / tulan di lahut ladyim manyarang tupan
+dimana kahu lagi dapat barapasan-pasan
+lahut hitu sani didalam(nya)
+wadyiplah manyalam diya
+hiyalah hilamu hiyang taramuliya
+‘h’i ‘ya’lah makam sagala (h)ambiya
+da(ng)ngarkan hibadat ‘hi’ sagala pilan1
+matyari diya !kai radyi radyihin!2
+32   (rihul) kasa nama dandan/nya
+dari dahulu datang sakarang
+ha’n’du hiran hambamu tuwan
+sagala maliyat handanan3 ‘itulah tiyada (ha)kan putus
+hiya’lah’ mad(u)ga sakaliyan pañjang
+labih daripada ribu dan laksa4
+barati disana gurap5 dan kalulus
+hingat (h)ingat kahu ‘h’akikat (h)ayir
+(h)itu sungguhnya hanyut6 lalu kahu7 (h)ilir
+33    dari (h)’u’wal dyuga Arus8 kahu / ‘pilih’
+!’anak patirah radya tyina!9
+haram10 dyuga hiyang kahu kanal11
+halal dyuga ‘hi’ya’ng’kahu kandak12
+hitulah tanda hamba kakasih
+tarikat hikalas nama sawuhnya13
+14   / hingat ‘h’ingat ka(h)u baralabuh
+karangnya banyak pasirnya dyawuh14
+gunung15 dan pulaw tiyada tarata’ng’guh
+humbaknya mangalun sabagi kahu turut
+kalakuwan hiyang banar
+34   kalakuwan/nya hindah paruka bagi’n’da humar
+ba’ra’nama lipah hamarnya kahar
+hitulah sidik bagi’n’da hibu bakar
+‘hiyalah’ sabat karana’nya’ labih1 (la) sabar
+samadiyat nama sapannya
+hiyalah was(i)l manyarang tupan
+mata(h)ari dan bulan hakan padumannya
+barulih ‘sa’waris kapada malahikat rahman
+dyadi ‘ha’raluhan hakan halus dyalan2
+35   di / nuring banda3 hisaman
+siyang ‘h’ari dan malam dyangan kahu Alih4
+mitak sapahat kapada hapdul rab’i’
+supaya masu’k’ kadalam kandang
+hiya5 hitulah maratamban6 ba’gin’da hali (!!) yatim
+dyangan kahu (A) barabanyak hupat7 nabi dan8 wali
+tiyada tarahisaw9 hiyalah muhannin10
+sukar taradapat katur(u)nan sarata kitap
+36   / dimanakan sama dengan makuta
+15    ma/liya(ra)kan barat
+‘barakat’lah nama dayungnya
+sakaliyan humat mitak ditulung
+barulih sapahat didalam lurung
+‘h’iyalah hunggas malata gunung
+hunggas hitu tiyada11 ‘ta’rabang
+kapada ‘pada’ bibi ‘pa’ramannya datang
+manyuru(hi) sagala hisalam! sakaliyan batang!12
+37   bahital muhumur samu/”wanya datang”
+“’angin ta”kut saka”liyan pasi”k
+“sik”sanya sa”ngat tarlalu sarik”
+“di”lu”war” kandang “harabibul radyap”
+“’i”tula”h nini datuk” dyipu”ra”na
+sidang ‘h’itu “mu”hamat kakasih1 halah2
+mangunda’r’ burak taralalu layip
+paragi mangadyakkan “sarata” da”ngan” barahinya
+hiran baranyanyi
+38    /”hasuk musatar parahu muhawang”
+!manati musim lagi kan pulang
+tinggallah hibu dan bapa3
+39   ‘sa’rasa-rasa pun tiyada baragu/na ‘lagi sa’ madyanun
+dan sahila-hila nama pakalannya
+disanalah dagang banyak baranatiyan
+tinggal(lah) bandar tapat baradagang!4
+16   manati musi/m lagi kan pulang
+lahut ladyim taralalu dyawuh
+tiyada taraduga5 hulih dandan (ndanan) sahuh6
+(h)i(tu)lah sukar baralabuh
+marakahlah parahumu(r) bapai
+40    galamnya7 habis / dimanakan sapai
+(patyahlah) hulihmu ‘lupa’ (sangat) taralalu lalai
+patyahlah parahumu bapai8
+‘pa’tyah balah di hudyung karang
+dahulu datang sakarang
+datang (h)inanya tiyada !’alang Alang!9
+hulihmu lupa matyari lawang
+hilang hakal sagala hiyang lupa
+duniyanya (dimanakan lama)
+sakarang manati samuwanya
+41   ‘hingit’ hingat sagala hi/yang lupa
+(di) lidahmu dyangan dipa’basar’ nuraka
+dalam suraga ‘dari dahulu
+datang sakarang’ dari hamar
+hakikat hitu dyuga ‘h’iyang kahu kanal
+sungguh halus ‘h’itulah taramasatar
+taras’u’rat disana sakaliyan hamar’mu’
+siya-siya kahu nin tukang
+ratamu ‘h’abis hakan kahu buwang
+dari dahulu datang sakarang
+42   datang hadyal dyangan kahu ma/mang
+17    siya/pa manyakal hukum (h)alah
+sudah hukum ‘”…”’ (h)alah ‘tala’
+(lama lama ha mati dyuga
+kalutum didalam paya
+kapil barisi lada sulah
+dyakala ‘utung’ apakan daya
+sapa manyakal hukum Alah)
+The introduction of C:
+Anyut para’u dari ‘ulu
+Asam tyuka makanan pari
+tambai kutahu dari kapada guru
+tarabukapun barahi
+Ada kabar nin suwatu
+kabar siyak lawan padita
+kabar rabiya lawan malim
+kabar ‘imam kalawan katip
+kabarni sahi mangulana
+The colophon of C:
+‘ini surat tabaris
+kalu ‘urang banyak tida’ tawu
+kalu ‘ilang nuli ‘uwung banya’ kane diputyat mara yang kuning
+kane dama Añju balañju
+Añju balañju dama panas
+dyadi ‘unggun Api naraka
+dyadi makanan kawa tudyu
+dyadi dyamanang sadyaga Agung
+dusa tu Ada’ Apun la hitye-->
+
+
+
+      </body>
+  </text>
+</TEI>
