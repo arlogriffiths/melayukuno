@@ -3,17 +3,21 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
     <teiHeader>
+      <!-- URL for photos of ms.: http://www.bl.uk/manuscripts/Viewer.aspx?ref=mss_malay_a_2_f001r -->
 <!-- transliteration questions:
 
 1. Historical A represented as qa for systemic neatness
-2. Historical bh kept, as it is distinct from b
-3. Would ñj or nj be a better transliteration?
+2. Would ñj or nj be a better transliteration?
  	in general, how to view the conjuncts: can they be analyzed as pasangans in Jav-Bal script?
-4. how to deal with double anusvāra that expresses syllable final /n/?
+3. how to deal with double anusvāra that expresses syllable final /n/?
 	ṁ*
 	N
 	ṁṁ
-5. Two charactersa for /s/: the double bar shall be represented as <s>, the double <ga> shape as <ś>
+4. Two glyphs for /b/, the one with extra downstroke might be historically: for now we distinguish <bh> from <b>
+5. Two glyphs for /s/: the double bar shall be represented as <s>, the double <ga> shape as <ś>
+6. Two glyphes for <v>:
+  type 1 <v> examples: 1r8 katavi
+  type 2 <v!> examples: 3r7 barbhuvat, 3r8 kuvala
  -->
         <fileDesc>
             <titleStmt>
@@ -121,13 +125,14 @@ su(ngguh) puhunnja basar ‘asalnja bidji
 <lg n="3">
 <l>bhu<lb n="8" break="no"/>vaḥña lakap· hiyaṁ tiyada
 <!-- we have reached here on 2021-02-22 -->
-<pb n="3r"/><lb n="1"/>ta(ra)sa(m)<unclear>bu</unclear>ñi</l>
-<l>suṅ*uḥña lakap· <lb n="2"/>hi<unclear>ya</unclear>ṁ (tiya)da taradind*iṁ</l>
-<l>para<lb n="3" break="no"/>hu hitula(h) taralalu ba<unclear>sa</unclear>ra (·)</l>
-<l><lb n="4"/>(para)tamaña balayir* di lahut· sa<lb n="5" break="no"/>tar*</l>
-<l>lunas·ña baranama ha<lb n="6"/>mar*</l>
-<l>tukaṁña <unclear>bi/di</unclear>djak· barana<lb n="7"/>ma djamal·</l>
-<l>barabhuvat·taṁ* pa<lb n="8"/>rahu di kuvala djabhar*</l><unclear>ka/ta</unclear>bha
+<pb n="3r"/><lb n="1"/>ta<supplied reason="omitted">ra</supplied>sambuñi</l>
+<l>suṅguḥña lakap· <lb n="2"/>hiyaṁ tiyada taradindiṁ</l>
+<l>para<lb n="3" break="no"/>hu hitula<supplied reason="omitted">ḥ</supplied> taralalu basar</unclear></l>
+      <!-- basar: the layar has shape of bottom left angle of a square, not recorded in Tafel I; see also next lines balayir, satar -->
+<l>para<lb n="4" break="no"/>tamaña balayir di lahut· sa<lb n="5" break="no"/>tar</l>
+<l>lunas·ña baranama ha<lb n="6" break="no"/>mar</l>
+<l>tukaṁña bhijak· ba<unclear>ra</unclear>na<lb n="7"/>ma jamal·</l>
+<l>barabhuvat·taṁ* pa<lb n="8" break="no"/>rahu di kuvala jabhar</l>
 </lg>
 <!--
 3    buwahnja la’ng’kap (h)ijang tijada / tarasa(m) bunji
@@ -140,14 +145,19 @@ barabuwat(t)an parahu di kuwala djabar
 -->
 
 <lg n="4">
-<l>“tatah”/nya ‘ba’ranama (h)adyal</l>
-<l>ga”hala?”mnya ka(h)in bisatar dan “dira”m(mi)</l>
-<l>2     sakar/nya ba(ra)nama (h)alip lam</l>
-<l>hiyalah dayim taradiri siyang (h)arid an malam</l>
-<l>dyanurnya sanitihasa tiyada padam4</l></lg>
+<l><unclear>tataḥ</unclear><pb n="4r"/><lb n="1"/>ña raṁ nama hajal·</l><!-- Voorhoeve baranama? -->
+<l>ga<gap reason="illegible" quantity="1" unit="characters"/><lb n="2"/>m·ña kahiṁ* bhisatar daṁ* <unclear>d</unclear>i<unclear>ra</unclear><lb n="3"/>m·mi</l>
+<l>sakar·ña bhara<unclear>na</unclear><lb n="4"/>ma halip· lam·</l>
+<l>hi<unclear>ya</unclear>laḥ <lb n="5"/> <choice><sic>dayi·ma</sic><corr>diyam·</corr></choice> taradiri śiyaṁ ha<lb n="6" break="no"/>ri daṁ* malam·</l><!-- Voorhoeve dayim — connection with pangolat notation in Batak? -->
+<l>janur·ña <lb n="7"/> sanitihasa tiyada padam·</l></lg>
+<!-- 4     “tatah”/nja ‘ba’ranama (h)adjal
+ga”hala?”mnja ka(h)in bisatar dan “dira”m(mi)
+2     sakar/nja ba(ra)nama (h)alip lam
+hijalah dajim taradiri sijang (h)arid an malam
+djanurnja sanitihasa tijada padam4 -->
 
 <lg n="5">
- <l>hiyalah baratipu baramahin / (mahin sagala) ragam</l>
+<l>hiyalaḥ bharatipu baramahiṁ* <pb n="5r"/><lb n="1"/(mahin sagala) ragam</l>
 <l>(di)dalam duniyanya (ba nama hawal hadyim)</l>
 <l>barabuwat sariyat daripada sakaliyan ‘h’isalam</l>
 <l>datang sakarang dimanakan dayim</l>
