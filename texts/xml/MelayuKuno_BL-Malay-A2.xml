@@ -89,22 +89,19 @@ Is seems probable to me that the text originally was a sja’ir and that it got 
 Hamzah’s vocabulary has influenced our author; he even uses the word bapai, Hamzah’s peculiar form for bapa, father. In his ideas the author follows the system of the seven grades, which became known in Indonesia in the 17th century.
 In the colophon of C the text is called surat tabaris. With some audacity one might suppose this to mean that its authorship is ascribed to Sjamsi Tabrīz. However this may be, the copyist held it in great awe. He says that losing the manuscript would be an unforgivable sin and would be punished by a sojourn in the fire of hell. -->
 
-<lg n="1">
+<lg>
 <l><pb n="1r"/><lb n="1"/><g type="sunrays"/>qalaḥhuma salam·<lb n="2" break="no"/>mu laihi<unclear>ku</unclear>m·</l>
 <l>śiyak· <lb n="3"/>mahulana bhaṁsaña ka<lb n="4" break="no"/>rim·</l>
 <l>manuñjuk·kaṁ* ja<lb n="5" break="no"/>laṁ* daripa<unclear reason="eccentric_ductus">da</unclear> janat· ja<lb n="6" break="no"/>natuṁ* nahiṁ*</l>
 <!-- Jannatun Na'iim artinya Surga yang Penuh Kenikmatan , Dalam Al Qur'an surat al Hajj, ayat 56. Allah swt. telah menegaskan : "Maka orang - orang beriman dan mengerjakan amal shaleh ada di dalam surga yang penuh kenikmatan". -->
 <l>qi sagala kamu <lb n="7"/>qiyaṁ baranama pandita</l>
 <l>ju<lb n="8" break="no"/>ga ya kamu katavi</l>
-</lg>
 <!-- 1.1 / ‘alah huma ‘mu sali ‘ala’ salammu ‘’a’laihi kum
 sijak mahulana ‘’adalah’ bangsanja karim
 manu(ndjuk)kan djalan daripada djanat djanatun1 nahin
 ‘i sagala kamu ‘h’ijang baranama pandita
 djug’i’ ja kamu katawi
  -->
-
-<lg n="2">
 <l>kayu hi parahu<pb n="2r"/><lb n="1"/>mu</l>
 <l>hita bharanama<surplus>ḥ</surplus> bha<unclear>tara</unclear></l>
 <!-- AG&RZ have reached here on 2021-02-22 -->
@@ -121,19 +118,15 @@ maka di(h)ambil (h)ulih hibarat (h)asalnja siki(n)
 kaju (h)itulah taralalu tinggi
 su(ngguh) puhunnja basar ‘asalnja bidji
 -->
-
-<lg n="3">
 <l>bhu<lb n="8" break="no"/>vaḥña lakap· hiyaṁ tiyada
-<!-- we have reached here on 2021-02-22 -->
 <pb n="3r"/><lb n="1"/>ta<supplied reason="omitted">ra</supplied>sambuñi</l>
 <l>suṅguḥña lakap· <lb n="2"/>hiyaṁ tiyada taradindiṁ</l>
 <l>para<lb n="3" break="no"/>hu hitula<supplied reason="omitted">ḥ</supplied> taralalu basar</unclear></l>
       <!-- basar: the layar has shape of bottom left angle of a square, not recorded in Tafel I; see also next lines balayir, satar -->
-<l>para<lb n="4" break="no"/>tamaña balayir di lahut· sa<lb n="5" break="no"/>tar</l>
+<l>para<lb n="4" break="no"/>tamaña balayir<!-- emend balayar? --> di lahut· sa<lb n="5" break="no"/>tar</l>
 <l>lunas·ña baranama ha<lb n="6" break="no"/>mar</l>
 <l>tukaṁña bhijak· ba<unclear>ra</unclear>na<lb n="7"/>ma jamal·</l>
 <l>barabhuvat·taṁ* pa<lb n="8" break="no"/>rahu di kuvala jabhar</l>
-</lg>
 <!--
 3    buwahnja la’ng’kap (h)ijang tijada / tarasa(m) bunji
 sungguhnja la’ng’kap (h)ijang tijada / taradinding
@@ -143,29 +136,32 @@ lunasnja baranama hamar
 tukangnja bidjak baranama djamal
 barabuwat(t)an parahu di kuwala djabar
 -->
-
-<lg n="4">
-<l><unclear>tataḥ</unclear><pb n="4r"/><lb n="1"/>ña raṁ nama hajal·</l><!-- Voorhoeve baranama? -->
-<l>ga<gap reason="illegible" quantity="1" unit="characters"/><lb n="2"/>m·ña kahiṁ* bhisatar daṁ* <unclear>d</unclear>i<unclear>ra</unclear><lb n="3"/>m·mi</l>
-<l>sakar·ña bhara<unclear>na</unclear><lb n="4"/>ma halip· lam·</l>
-<l>hi<unclear>ya</unclear>laḥ <lb n="5"/> <choice><sic>dayi·ma</sic><corr>diyam·</corr></choice> taradiri śiyaṁ ha<lb n="6" break="no"/>ri daṁ* malam·</l><!-- Voorhoeve dayim — connection with pangolat notation in Batak? -->
-<l>janur·ña <lb n="7"/> sanitihasa tiyada padam·</l></lg>
+<l><unclear>tataḥ</unclear><pb n="4r"/><lb n="1"/>ña <unclear>ba</unclear>ranama hajal·</l>
+<l>ga<unclear>la</unclear><lb n="2"/>m·ña kahiṁ* bhisatar daṁ* <unclear>d</unclear>i<unclear>ra</unclear><lb n="3"/>m·mi</l>
+  <!-- KBBI s.v. kain: – rami kain tenun yang kasar (seperti belacu)
+  so the meaning of dirami seems to be = ditenun, 'braided' -->
+<l>sa<supplied reason="omitted">ṁ</supplied>kar·ña bhara<unclear>na</unclear><lb n="4"/>ma halip· lam·</l>
+<!-- Winstedt Dict. sangkar —
+    KBBI: sengkar/seng·kar/ n Lay papan yang melintang di perahu tempat duduk orang yang berkayuh -->
+<l>hi<unclear>ya</unclear> laḥ <lb n="5"/>da<choice><sic>yi·ma</sic><corr>yim·</corr></choice> taradiri śiyaṁ ha<lb n="6" break="no"/>ri daṁ* malam·</l><!-- Voorhoeve dayim — connection with pangolat notation in Batak? -->
+<l>ja nur·ña <lb n="7"/> sanitihasa tiyada padam·</l>
 <!-- 4     “tatah”/nja ‘ba’ranama (h)adjal
 ga”hala?”mnja ka(h)in bisatar dan “dira”m(mi)
 2     sakar/nja ba(ra)nama (h)alip lam
 hijalah dajim taradiri sijang (h)arid an malam
 djanurnja sanitihasa tijada padam4 -->
-
-<lg n="5">
-<l>hiyalaḥ bharatipu baramahiṁ* <pb n="5r"/><lb n="1"/>
-<!-- AG&RZ reached here on 2021-03-06 -->(mahin sagala) ragam</l>
-<l>(di)dalam duniyanya (ba nama hawal hadyim)</l>
-<l>barabuwat sariyat daripada sakaliyan ‘h’isalam</l>
-<l>datang sakarang dimanakan dayim</l>
+<l>hiya laḥ bharatipu baramahiṁ*<pb n="5r"/><lb n="1"/><!-- AG&RZ reached here on 2021-03-06 -->
+mahiṁ* sagala ragam·</l>
+<l>di <lb n="2"/><unclear reason="eccentric_ductus">da</unclear>lam· duniyaña bha<supplied reason="omitted">ra</supplied>nama <lb n="3"/>hav*al· hajim·</l>
+  <!-- dalam: there is a small vertical stroke to right of da that must be accidental -->
+<l>bharabhuva<lb n="4" break="no"/>t· śariyat·* daripada <lb n="5"/>sakaliyaṁ* qisalam·</l>
+  <!-- ·* is a tanda bunuh with internal cross -->
+<l>dataṁ <lb n="6"/>sakaraṁ dimanakaṁ* <unclear reason="eccentric_ductus">da</unclear>yim·</l>
+  <!-- the top right part of da is closed, as we also in 1r5 daripada -->
+    <!-- see MCP  search words manakan and dimanakan -->
+    <!-- @@@ we have reached here on 2021-03-08 -->
 <l>pasaknya baranama (m)bitang</l>
 <l>dari da(h)ulu datang sakarang</l></lg>
-
-<lg n="6">
 <l>kasih/nya banyak tiyada takabilang5</l>
 <l>da(h)(u)lu datang sakarang</l>
 <l>mabuk15 (h)itu bukannya kakasih</l>
