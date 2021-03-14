@@ -126,7 +126,7 @@ su(ngguh) puhunnja basar ‘asalnja bidji
 <l>para<lb n="4" break="no"/>tamaña balayir<!-- emend balayar? --> di lahut· sa<lb n="5" break="no"/>tar</l>
 <l>lunas·ña baranama ha<lb n="6" break="no"/>mar</l>
 <l>tukaṁña bhijak· ba<unclear>ra</unclear>na<lb n="7"/>ma jamal·</l>
-<l>barabhuvat·taṁ* pa<lb n="8" break="no"/>rahu di kuvala jabhar</l>
+<l>barabhuvat·taṁ* pa<lb n="8" break="no"/>rahu di kuv*ala jabhar</l>
 <!--
 3    buwahnja la’ng’kap (h)ijang tijada / tarasa(m) bunji
 sungguhnja la’ng’kap (h)ijang tijada / taradinding
@@ -160,23 +160,52 @@ mahiṁ* sagala ragam·</l>
   <!-- the top right part of da is closed, as we also in 1r5 daripada -->
     <!-- see MCP  search words manakan and dimanakan -->
     <!-- @@@ we have reached here on 2021-03-08 -->
-<l>pasaknya baranama (m)bitang</l>
-<l>dari da(h)ulu datang sakarang</l></lg>
-<l>kasih/nya banyak tiyada takabilang5</l>
-<l>da(h)(u)lu datang sakarang</l>
-<l>mabuk15 (h)itu bukannya kakasih</l>
-<l>(h)(i)ya(ng)lah kalakuwan tadyali dan ‘dan’ tasabihi</l>
-<l>(h)it(u)lah tyaramin taralalu pasih</l>
-<l>bayang-bayangnya sangat mangasih</l>
-<l>t’u’wakal Akilun1 nama gagadingnya</l></lg>
-<!--
-<lg n="7"><!-\-7.3-\->
-/ parahunya saniti Asal2 / tiyada dapat (di) dyawuh3 dan daping
-mamandang diya dyangan kahu paning
-ka’induhannya4 ‘iluk5 tiyada taratanding6
-patimbannya baranama niran
-muwah radya muwah (pangi)ran</lg>
+    <!-- 5     hijalah baratipu baramahin / (mahin sagala) ragam
+(di)dalam dunijanja (ba nama hawal hadjim)
+barabuwat sarijat daripada sakalijan ‘h’isalam
+datang sakarang dimanakan dajim
+pasaknja baranama (m)bitang
+dari da(h)ulu datang sakarang
+6     kasih/nja banjak tijada takabilang
+    -->
+<l><lb n="7"/>pasak·ña bharanama (m)<unclear>bhi</unclear>taṁ</l> 
+<l>da<l><lb n="8"/><unclear>ri <unclear reason="eccentric_ductus">da</unclear>hulu</unclear> <unclear reason="eccentric_ductus">da</unclear>taṁ sakaraṁ</l></lg>
+<l><unclear>kasih</unclear><pb n="6r"/><unclear>ña bha</unclear>ñak· tiyada <unclear>takabi</unclear><lb n="2"/>laṁ</l>
+<l>[bi laṁ]dahulu dataṁ sakaraṁ</l>
+<l><lb n="3"/>mabut·<supplied reason="substitution aksara" "intended word">mabuk·</supplied hitu bukaṁ*ña kakasiḥ</l>
+<l><lb n="4"/>hiyaṁ laḥ kalakuvaṁ* tajali daṁ* <lb n="5"/> tasabhihiṁ*</l>
+<l>hitulaḥ caramiṁ* ta<lb n="6"/>ralalu paśiḥ</l>
+<l>bayaṁ bayaṁña sa<lb n="7"break="no"/>ṅat· maṅasiḥ</l>
+<l>tavakal· (A)ha<lb n="8"/>kilul· nama gagadiṁña</l></lg>
+<!--6     kasih/nja banjak tijada takabilang5
+da(h)(u)lu datang sakarang
+mabuk15 (h)itu bukannja kakasih
+(h)(i)ja(ng)lah kalakuwan tadjali dan ‘dan’ tasabihi
+(h)it(u)lah tjaramin taralalu pasih
+bajang-bajangnja sangat mangasih
+t’u’wakal ‘akilun1 nama gagadingnja
+-->
+<l><pb n="7r"/> parahuña sanitiyasa ti<lb n="2"break="no"/>yada dapat· di jahuḥ daṁ*<lb n="3"/>dapiṁ</lg>
+<l>mamandaṁ diya jaṅaṁ* ka<lb n="4"break="no"/>hu paniṁ</lg>
+<l>ka himaḥhiṁ*ña qilu<lb n="5"break="no"/>k· tiyada tarata mapatidiṁ*</lg>
+<l><lb n="6"/>(patimban)ña baranama niraṁ</lg>
+<l>muvaḥ ra<lb n="7"break="no"/>ja muvaḥ paṅiḥra<unclear>pa</unclear> sala<supplied reason="plus symbol">ña<lb n="8"/>satu tiyada baralahiṁ*-lahiṁ*</lg>
+<!--7.3    / parahunja saniti ‘asal2 / tijada dapat (di) djawuh3 dan daping
+mamandang dija djangan kahu paning
+ka’induhannja4 ‘iluk5 tijada taratanding6
+patimbannja baranama niran
+muwah radja muwah (pangi)ran
+‘asalnja7 satu tijada bara (lahin)lah
+-->
+<l><pb n="8r"/>naṁ*</lg>
+<l>mulaña hir· daripada <supplied reason="illegible aksara"><lb n="2"break="no"/>n·kutu kajaṁ* maha piyan</lg>
+<l><unclear reason="eccentric_ductus">da</unclear><supplied reason="illegible aksara">(tangah)(pa) <lb n="3"break="no"/>daṁ hijalah baratipu baramahiṁ*(mahin)</lg>
+<l><lb n="4"/>mahiṁ*muhip·ña  lankap· daripa<lb n="5"break="no"/>da sakal(i)yaṁ* jamiṁ*</lg>
+<l>tujuḥ musana <lb n="6"/> jaṅaṁ* kahu barasipi sipaṁ</lg>
+<l>hum·<lb n="7"break="no"/>pama bhuva*ḥ didalam· bataṁña</lg>
+<l>lakap·samat·daripa<unclear reason="eccentric_ductus">da</unclear>sa
 
+<!--
 <lg n="8">
 Asalnya7 satu tiyada bara (lahin)lah (i) nan
 mulanya ‘la’hir daripada (..n) ku’n’t(u) kañjan mah’u’piyan
@@ -184,8 +213,21 @@ mulanya ‘la’hir daripada (..n) ku’n’t(u) kañjan mah’u’piyan
 muhipnya8 la’ng’kap daripada sakal(i)yan dyamin
 tudyuh musana dyangan kahu barasipi (si)pang
 humpama buwah didalam batang(nya)</lg>
-
+-->
 <lg n="9">
+la’ng’kap samat daripada sa/kaliyan dagang
+dari dahulu datang sakarang
+nunggaranya tiyada (h)alang(h)alang ‘datang sakarang’
+timbanya baranama salawat
+ty’i’ta hiya9 (h)andak mangadapkan10 k(i)bilat
+hitulah parahipun (n)an sakaliyan11 Awak12
+di takabir13 dan takalil14 dyug(i)ya diparabanyak
+4     supaya muh (h)aripatmu s’u’/parati mi(la)nyak
+</lg>
+
+
+<!--
+lg n="9">
 la’ng’kap samat daripada sa/kaliyan dagang
 dari dahulu datang sakarang
 nunggaranya tiyada (h)alang(h)alang ‘datang sakarang’
