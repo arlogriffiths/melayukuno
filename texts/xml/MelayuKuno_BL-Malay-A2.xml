@@ -168,15 +168,16 @@ pasaknja baranama (m)bitang
 dari da(h)ulu datang sakarang
 6     kasih/nja banjak tijada takabilang
     -->
-<l><lb n="7"/>pasak·ña bharanama (m)<unclear>bhi</unclear>taṁ</l>
-<l>da<l><lb n="8"/><unclear>ri <unclear reason="eccentric_ductus">da</unclear>hulu</unclear> <unclear reason="eccentric_ductus">da</unclear>taṁ sakaraṁ</l></lg>
-<l><unclear>kasih</unclear><pb n="6r"/><unclear>ña bha</unclear>ñak· tiyada <unclear>takabi</unclear><lb n="2"/>laṁ</l>
-<l>[bi laṁ]dahulu dataṁ sakaraṁ</l>
-<l><lb n="3"/>mabut·<supplied reason="substitution aksara" "intended word">mabuk·</supplied hitu bukaṁ*ña kakasiḥ</l>
-<l><lb n="4"/>hiyaṁ laḥ kalakuvaṁ* tajali daṁ* <lb n="5"/> tasabhihiṁ*</l>
-<l>hitulaḥ caramiṁ* ta<lb n="6"/>ralalu paśiḥ</l>
-<l>bayaṁ bayaṁña sa<lb n="7"break="no"/>ṅat· maṅasiḥ</l>
-<l>tavakal· (A)ha<lb n="8"/>kilul· nama gagadiṁña</l></lg>
+<l><lb n="7"/>pasak·ña bharanama <choice><sic>mbi</sic><corr>bin</corr></choice>taṁ</l>
+<l>da<lb n="8" break="no"/><unclear>ri <unclear reason="eccentric_ductus">da</unclear>hul</unclear><supplied reason="illegible">u</supplied> <unclear reason="eccentric_ductus">da</unclear>taṁ sakaraṁ</l>
+<l><supplied reason="illegible">kasi</unclear>ḥ<pb n="6r" break="no"/><lb n="1" break="no"/><unclear>ña bha</unclear>ñak·* tiyada bha<supplied reason="illegible">ra</supplied><unclear>bhi</unclear><lb n="2" break="no"/>laṁ-bhilaṁ</l><!-- MCP has berbilang-bilang in Hamzah Fansuri -->
+<surplus><l>dahulu dataṁ sakaraṁ</l></surplus>
+<l><lb n="3"/>mabhu<choice><sic>t</sic><corr>k</corr></choice>· hitu bukaṁ*ña kakasiḥ</l>
+<l><lb n="4"/>hiya<surplus>ṁ</surplus> laḥ kalakuvaṁ* tajali daṁ* <lb n="5"/>tasabhi<choice><sic>hiṁ*</sic><corr>ḥ</corr></choice></l>
+<!-- it seems that an original sequence ḥ hi was miscopied as hiṁ*, after which the syllable hi was repeated -->
+<l>hitulaḥ caramiṁ* ta<lb n="6" break="no"/>ralalu <choice><sic>pa</sic><corr>bar</corr></choice>śiḥ</l>
+<l>bhayaṁ-bhayaṁña sa<lb n="7" break="no"/>ṅat· maṅasiḥ</l>
+<l>tavakal· ha<lb n="8" break="no"/>kilul· nama gagadiṁña</l></lg>
 <!--6     kasih/nja banjak tijada takabilang5
 da(h)(u)lu datang sakarang
 mabuk15 (h)itu bukannja kakasih
@@ -185,11 +186,16 @@ mabuk15 (h)itu bukannja kakasih
 bajang-bajangnja sangat mangasih
 t’u’wakal ‘akilun1 nama gagadingnja
 -->
-<l><pb n="7r"/> parahuña sanitiyasa ti<lb n="2"break="no"/>yada dapat· di jahuḥ daṁ*<lb n="3"/>dapiṁ</lg>
+<l><pb n="7r"/>parahuña sanitiyasa ti<lb n="2" break="no"/>yada dapat· di jahuḥ daṁ* <lb n="3"/>da<supplied reason="omitted">m</supplied>piṁ</lg>
+  <!-- the meaning of the end of the previous line is uncertain — a correction seems required -->
 <l>mamandaṁ diya jaṅaṁ* ka<lb n="4"break="no"/>hu paniṁ</lg>
-<l>ka himaḥhiṁ*ña qilu<lb n="5"break="no"/>k· tiyada tarata mapatidiṁ*</lg>
-<l><lb n="6"/>(patimban)ña baranama niraṁ</lg>
-<l>muvaḥ ra<lb n="7"break="no"/>ja muvaḥ paṅiḥra<unclear>pa</unclear> sala<supplied reason="plus symbol">ña<lb n="8"/>satu tiyada baralahiṁ*-lahiṁ*</lg>
+<l>kahimaḥhaṁ*ña qilu<lb n="5"break="no"/>k· tiyada tarata<choice><sic>ma</sic><corr>ndiṁ</corr></choice></lg>
+<l>patimbaṁ*<lb n="6" break="no"/>ña bharanama niraṁ*</lg>
+<!-- patimban: 'place for keeping buckets for bailing'? person who bails
+     Sundanese: "patimban n. the middle part of a cargo boat."
+     Baginsky p. 199, note on st. 16: nairan means 'two luminaries' -->
+<l>muvaḥ ra<lb n="7" break="no"/>ja muvaḥ paṅi<choice><sic>ḥra</sic><corr>raṁ*</corr></choice></l>
+<l><choice><sic>pai</sic><corr>ha</corr></choice>sal·*ña <lb n="8"/>satu tiyada baralahiṁ*-lah<unclear>iṁ*</unclear></lg>
 <!--7.3    / parahunja saniti ‘asal2 / tijada dapat (di) djawuh3 dan daping
 mamandang dija djangan kahu paning
 ka’induhannja4 ‘iluk5 tijada taratanding6
@@ -197,6 +203,7 @@ patimbannja baranama niran
 muwah radja muwah (pangi)ran
 ‘asalnja7 satu tijada bara (lahin)lah
 -->
+<!-- @@@ we have reached here on 2021-03-15 -->
 <l><pb n="8r"/>naṁ*</lg>
 <l>mulaña hir· daripada <supplied reason="illegible aksara"><lb n="2"break="no"/>n·kutu kajaṁ* maha piyan</lg>
 <l><unclear reason="eccentric_ductus">da</unclear><supplied reason="illegible aksara">(tangah)(pa) <lb n="3"break="no"/>daṁ hijalah baratipu baramahiṁ*(mahin)</lg>
