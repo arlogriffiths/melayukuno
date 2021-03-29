@@ -195,7 +195,7 @@ t’u’wakal ‘akilun1 nama gagadingnja
      Sundanese: "patimban n. the middle part of a cargo boat."
      Baginsky p. 199, note on st. 16: nairan means 'two luminaries' -->
 <l>muvaḥ ra<lb n="7" break="no"/>ja muvaḥ paṅi<choice><sic>ḥra</sic><corr>raṁ*</corr></choice></l>
-<l><choice><sic>pai</sic><corr>ha</corr></choice>sal·*ña <lb n="8"/>satu tiyada baralahiṁ*-lah<unclear>iṁ*</unclear></lg>
+<l><choice><sic>pai</sic><corr>ha</corr></choice>sal·*ña <lb n="8"/>satu tiyada baralahiṁ*-lah<unclear>iṁ*</unclear><pb n="8r"/><lb n="1"/>naṁ</l>
 <!--7.3    / parahunja saniti ‘asal2 / tijada dapat (di) djawuh3 dan daping
 mamandang dija djangan kahu paning
 ka’induhannja4 ‘iluk5 tijada taratanding6
@@ -204,14 +204,12 @@ muwah radja muwah (pangi)ran
 ‘asalnja7 satu tijada bara (lahin)lah
 -->
 <!-- @@@ we have reached here on 2021-03-15 -->
-<l><pb n="8r"/>naṁ</lg>
-<l>mulaña hir· daripada <supplied reason="illegible aksara"><lb n="2"break="no"/>n·kutu kajaṁ* maha piyaṁ*</lg>
-<l><unclear>ta(ngah)</unclear><supplied reason="illegible aksara">(pa) <lb n="3"break="no"/>daṁ hijala<unclear>ḥ</unclear> baratipu baramahiṁ*- <lb n="4"/>mahiṁ*</lg>
-<l>muhip·ña  lakap· daripa<lb n="5"break="no"/>da sakal<unclear>i</unclear>yaṁ* jamiṁ*</lg>
-<l>tujuḥ musana <lb n="6"/> jaṅaṁ* kahu barasi<unclear>p</unclear>i sipaṁ</lg>
-<l>hum·<lb n="7"break="no"/>pama bhuva*ḥ didalam· bataṁña</lg>
-<l>lakap·samat·daripa<unclear reason="eccentric_ductus">da</unclear>sa
-
+<l>mulaña hir· daripada <unclear>ku</unclear><lb n="2" break="no"/>n·kutu kañjaṁ* mahapiyaṁ*</l>
+<l><unclear>ta<gap reason="illegible" quantity="1" unit="characters"/><!-- it seems impossible to read ṅa here --><unclear>pa</unclear><lb n="3" break="no"/>daṁ hiyala<del>ḥ</del> baratipu baramahiṁ*<lb n="4" break="no"/>-mahiṁ*</l>
+<l>muhip·ña lakap· daripa<lb n="5" break="no"/>da sakal<unclear>i</unclear>yaṁ* jamiṁ*</l>
+<l>tujuḥmu sana <lb n="6"/> jaṅaṁ* kahu barasi<unclear reason="eccentric_ductus">p</unclear>i-sipaṁ</l>
+<l>hum·<lb n="7" break="no"/>pama bhuv*aḥ di dalam· bataṁña</l>
+<l><lb n="8"/>lakap· samat· daripa<unclear reason="eccentric_ductus">da</unclear> sa<pb n="9r" break="no"/><lb n="1" break="no"/>kaliyaṁ* dagaṁ</l>
 <!--
 <lg n="8">
 Asalnya7 satu tiyada bara (lahin)lah (i) nan
@@ -221,16 +219,15 @@ muhipnya8 la’ng’kap daripada sakal(i)yan dyamin
 tudyuh musana dyangan kahu barasipi (si)pang
 humpama buwah didalam batang(nya)</lg>
 -->
-<l><pb n="9r"/>kaliyaṁ* dagaṁ
 <l>dari daqulu dataṁ sakaraṁ</lg>
-<l><lb n="2"/>nuṅgaraña tihada qa<unclear reason"partially legible aksara">laṁ</unclear>-halaṁ</lg>
-<l>timba<lb n="3"break="no"/>ña baranama salav*at·</lg>
-<l>cataña haṁ*<lb n="4"break="no"/>ndak· maṅandak·*kaṁ* kibhilat·</lg>
-<l><lb n="5"/>hitulaḥ parahipun· naṁ* sakali<lb n="6"break="no"/>yaṁ qavak·</lg>
-<l>di takabhir· daṁ* ta<lb n="7"break="no"/>kalih· jugiya diparabhañak·</lg>
-<l><lb n="8"/>śupaya muḥharipat· musa para<lb n="9"break="no"/>ti milañak· supaya <unclear>mi</unclear>na <unclear>t·</unclear> <unclear reason "one illegible aksara" unclear/></lg>
+<l><lb n="2"/>nuṅgaraña tihada qa<unclear>laṁ</unclear>-halaṁ</lg><!-- nuṅgara < tenggara -->
+<l>timba<lb n="3" break="no"/>ña baranama salav*at·</lg>
+<l>cataña haṁ*<lb n="4" break="no"/>ndak· maṅandak·*kaṁ* kibhilat·</lg>
+<l><lb n="5"/>hitulaḥ parahipun·naṁ* sakali<lb n="6" break="no"/>ya<choice><sic>ṁ</sic><corr>ṁ*</corr></choice> qavak·</lg>
+<l>di takabhir· daṁ* ta<lb n="7" break="no"/>kalih· jugiya diparabhañak·</lg>
+<l><lb n="8"/>śupaya muḥharipat·mu sapara<lb n="9" break="no"/>ti mi<surplus>la</surplus>ñak·</l>
+<l>supaya <unclear>mi</unclear><!-- mbi? -->na<unclear>t·</unclear> <unclear>pata</unclear><pb n="9r" break="no"/><lb n="1" break="no"/></l>
 </lg>
-
 <!--
 lg n="9">
 la’ng’kap samat daripada sa/kaliyan dagang
@@ -243,16 +240,14 @@ di takabir13 dan takalil14 dyug(i)ya diparabanyak
 4     supaya muh (h)aripatmu s’u’/parati mi(la)nyak
 </lg>
 -->
-
-<l><pb n="10r"> bhadaṁ* bha<choice><sic>da</sic><corr>daṁ*</corr></choice>ñav*a</lg>
-<l>qitulaḥ hu<unclear>dyta-</unclear><lb n="2"break="no"/>-· mañatakaṁ* qikaṁ* ndak·</lg>
-<l><choice><sic>ga</sic><corr>ha</corr>s·ta <lb n="3"break="no"/>ga piralaḥ tubhat·ña</lg>
-<l>ji<choice><sic>ka</sic><corr>ki</corr>r· daṁ* <lb n="4"/> madakir· jugiya(lah) dipara<lb n="5"break="no"/>dapat·</lg>
-<l>da<choice><sic>ra</sic><corr>ri</corr>pada śakaliyaṁ* <lb n="6"/> hisalam·* bharabhuvat·*</lg>
-<l>hibada<lb n="7"break="no"/t· tul· <choice><sic>ma</sic><corr>mu</corr>bhiṁ* nama luvaṁ*ña</lg>
-<l>hiyalaḥ kanyiṁ* savatu tuwaṁ* ki<lb n="8"break="no"/>ta</lg> haval·ña hada hahir·*puṁ* ba
-
-
+<l><pb n="10r">bhadaṁ*-bhada<supplied reason="omitted">ṁ*</supplied> ñav*a</l>
+<l>qitulaḥ <unclear>h</unclear>ujat</unclear><lb n="2" break="no"/>· mañatakaṁ* qikaṁ* ndak·</l>
+<l><choice><sic>ga</sic><corr>ha</corr>s·ta<lb n="3" break="no"/>gapiralaḥ tubhat·ña</l>
+<l><choice><sic>jikar·</sic><corr>jakir·</corr></choice> daṁ* <lb n="4"/>madakir· jugiya dipara<lb n="5" break="no"/>dapat·</l>
+<l>da<choice><sic>ra</sic><corr>ri</corr>pada śakaliyaṁ* <lb n="6"/>hisalam·* bharabhuvat·*</lg>
+<l>hibada<lb n="7" break="no"/>t·t ul· <choice><sic>ma</sic><corr>mu</corr></choice>bhiṁ* nama luvaṁ*ña</lg>
+<l><lb n="8"/>hiyalaḥ kañiṁ* savatu tuvaṁ* ki<lb n="8" break="no"/>ta</lg> haval·ña hada hahir·* puṁ* ba
+<!-- @@@ we have reached here on 2021-03-29 -->
 <!--
 <lg n="11">
 hawal ya (h)ada hahirpun ba/lum
