@@ -39,7 +39,7 @@
                 </supportDesc>
                   <scriptDesc>
                     <script unit="2">
-                      <script><p> Ka-ga-nga and Jawi</p>
+                      <script>Ka-ga-nga and Jawi</script>
                   </scriptDesc>
               </physDesc>
                 </sourceDesc>
@@ -48,15 +48,20 @@
             <text xml:space="preserve">
               <body>
                  <div type="Diplomatic edition" xml:lang="kaGaNga-Latn">
-<pb unit="1"/>
-<lb n="1">
-<lb n="2">
-<lb n="3">
-<lb n="4">
-<lb n="5">
+<pb unit="1"/> <p> 5 lines in Javi script </p>
+<lb n="1">ba-ha-wa ra-ma-na°(ramai?)-ya-ta-lam-ya-ma-ka-na(makin?)-a ra-mim hi-ta-na # ha-ba-r ra-ma-wa°- la-a-ma-wa° a-kof-wa° ba-dhan
 
+<pb unit="2"/>
 
-
+<pb unit="7"/> <lb n="1">ña<unclear>ṅ</unclear>· ma<unclear>ti</unclear> naga rihakan·kava/bhi nasa
+<lb n="2"/>jakagapa<unclear>si</unclear> yaṁ susaḥ satikit· manu
+<lb n="3" break="no"/>siya sukacita makaṁ*-makaṁ* yaṅ§ muraḥ <g type="s up.dw."/> bhulaṁ*
+<lb n="4"/> sapar gapa ma<unclear>la</unclear>m· siyaṅ manusiya bhaña
+<lb n="5" break "no"/>k· bharapindaḥ-<choice><corr>pa</corr><sic>pi</sic></choice>ndaḥ dari bhanu<unclear>va#</unclear>ña ka bhanu
+<lb n="6" break "no"/>va lahin· <g type="2 circles"/> raka bhulaṁ rabhil·huval·(rabhiul)
+<lb n="7"/> gapa malam· bhuvaḥ-bhuvaḥhaṁ* kuraṅ gapa mala
+<lb n="8" break "no"/><choice><corr>mal·</corr><sic>pi</sic></choice>m· siyaṅ bhañak· hujan· da*lam·
+<lb n="9"/> kahuṁ* hitu kabhajik·kaṁ* manusiya jahat·
 </div>
 <div type="apparatus">
   <!--apparatus encoded as per EGD §9.1, basic elements for apparatus below-->
