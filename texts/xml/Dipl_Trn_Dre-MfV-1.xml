@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                  <title>Diplomatic edition of Leiden Cod. Or. 3429</title>
+                  <title>Diplomatic edition of Dresden Ms. Nr. 34225</title>
                 <respStmt>
                     <resp>EpiDoc Encoding</resp>
                     <resp>intellectual authorship of edition</resp>
@@ -21,7 +21,7 @@
             <publicationStmt>
                 <authority>DHARMA</authority>
                 <pubPlace>Hamburg</pubPlace>
-                <idno type="filename">DHARMA_DiplEdBatakLeidenOr3429</idno>
+                <idno type="filename">DHARMA_DiplEdSouthSumDre-MfV-1</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/">
                         <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -34,14 +34,38 @@
                 </availability>
                 <date from="2019" to="2025">2019-2025</date>
             </publicationStmt>
-            <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-                <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+            <sourceDesc>
+              <msDesc>
+                <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <repository>Museum für Völkerkunde</repository>
+                  <idno>Nr. 34225</idno>
+                </msIdentifier>
+                <physDesc>
+                  <objectDesc form="concertina"/>
+                    <supportDesc material="Tr.Ba">
+                      <support>Tree-bark</support>
+                      <extent>18 folios
+                        <dimensions scope="all" type="folio" unit="cm">
+                          <height>14</height>
+                          <width>10.5</width>
+                          </dimensions>
+                          <cover>Two wooden covers</cover>
+                        </extent>
+                      </supportDesc>
+                        <scriptDesc>
+                          <script unit="2">
+                            <script>Ka-ga-nga and Jawi</script>
+                        </scriptDesc>
+                    </physDesc>
+                      </sourceDesc>
                     <msIdentifier>
                         <repository>DHARMAbase</repository>
                         <idno/><!-- don't modify this -->
                     </msIdentifier>
                     <msContents><!-- describe the intellectual content of an inscription -->
-                        <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+                        <summary><!-- //// NOT MANDATORY  ////--></summary>
                     </msContents>
                     <physDesc>
                         <handDesc>
@@ -53,9 +77,6 @@
 					 -->
                         </handDesc>
                     </physDesc>
-                </msDesc>
-            </sourceDesc>
-        </fileDesc>
         <encodingDesc>
             <projectDesc>
                 <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
@@ -69,46 +90,18 @@
                     <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
                 </prefixDef>
             </listPrefixDef>
-            <charDecl>
-              <glyph xml:id="B1"></glyph>
-            </charDecl>
         </encodingDesc>
         <revisionDesc>
             <change who="part:rozo" when="2021-04-26">started encoding the edition</change>
         </revisionDesc>
-        <sourceDesc>
-          <msDesc>
-            <msIdentifier>
-              <country>Germany</country>
-              <settlement>Dresden</settlement>
-              <repository>Museum für Völkerkunde</repository>
-              <idno>Nr. 34225</idno>
-            </msIdentifier>
-            <physDesc>
-              <objectDesc form="concertina"/>
-                <supportDesc material="Tr.Ba">
-                  <support>Tree-bark</support>
-                  <extent>18 folios
-                    <dimensions scope="all" type="folio" unit="cm">
-                      <height>14</height>
-                      <width>10.5</width>
-                      </dimensions>
-                      <cover>Two wooden covers</cover>
-                    </extent>
-                  </supportDesc>
-                    <scriptDesc>
-                      <script unit="2">
-                        <script>Ka-ga-nga and Jawi</script>
-                    </scriptDesc>
-                </physDesc>
-                  </sourceDesc>
                 </fileDesc>
               </teiHeader>
               <text xml:space="preserve">
                 <body>
                    <div type="Diplomatic edition" xml:lang="kaGaNga-Latn">
-              <pb unit="1"/> <p> 5 lines in Javi script </p>
+              <pb unit="1"/><p> 5 lines in Javi script </p>
               <lb n="1">ba-ha-wa ra-ma-na°(ramai?)-ya-ta-lam-ya-ma-ka-na(makin?)-a ra-mim hi-ta-na # ha-ba-r ra-ma-wa°- la-a-ma-wa° a-kof-wa° ba-dhan
+
 
               <pb unit="2"/>
 
